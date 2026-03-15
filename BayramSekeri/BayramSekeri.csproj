@@ -88,6 +88,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Controller_AED\Controller.css" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -109,6 +110,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="AED_model\" />
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
