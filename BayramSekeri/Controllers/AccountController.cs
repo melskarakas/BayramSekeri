@@ -11,7 +11,11 @@ namespace BayramSekeri.Controllers
         // GET: Account
         public ActionResult Index()
         {
-            return View();
+            string[] isim = new string
+            {
+                "aposdaşd","apsodmadms","asmdlamdas"
+            }
+            return View(isim);
         }
     }
 }
