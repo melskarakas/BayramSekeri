@@ -15,6 +15,8 @@ namespace BayramSekeri.Controllers
             {
                 "aposdaşd","apsodmadms","asmdlamdas"
             }
+
+            //Naber(Alperen)
             return View(isim);
         }
     }
