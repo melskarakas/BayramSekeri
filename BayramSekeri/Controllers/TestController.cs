@@ -3,16 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-
 namespace BayramSekeri.Controllers
 {
-    public class AccountController : Controller
+    public class TestController : Controller
     {
-        // GET: Account
         public ActionResult Index()
         {
-            //Naber(Alperen)
             return View();
         }
     }
+
 }
