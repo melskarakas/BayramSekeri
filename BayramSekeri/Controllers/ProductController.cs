@@ -18,6 +18,11 @@ namespace BayramSekeri.Controllers
 
             return View();
         }
+        public ActionResult ekle()
+        {
+
+            return View();
+        }
 
     }
 }
