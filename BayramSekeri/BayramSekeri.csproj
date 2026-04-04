@@ -102,6 +102,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\RegisterController.cs" />
     <Compile Include="Controllers\ContollerAddController.cs" />
     <Compile Include="Controller-YA\LoremIpsum.cs" />
@@ -125,6 +126,9 @@
     <Folder Include="AED_model\" />
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Account\" />
+    <Folder Include="Views\Product\" />
+    <Folder Include="Views\Register\" />
     <Folder Include="Views\Main\" />
   </ItemGroup>
   <PropertyGroup>
