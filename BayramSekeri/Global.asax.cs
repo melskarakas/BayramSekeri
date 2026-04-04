@@ -13,6 +13,14 @@ namespace BayramSekeri
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+
+            /// Diğer başlangıç kodları buraya eklenebilir
+            // Örneğin, Dependency Injection yapılandırması, filtreler, vb.
+            // Örnek: Dependency Injection yapılandırması/
+            // var container = new UnityContainer();
+            // container.RegisterType<IMyService, MyService>();,
+
+            /**************************************************************/
         }
     }
 }

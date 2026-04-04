@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace BayramSekeri
 {
@@ -17,8 +18,11 @@ namespace BayramSekeri
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                
             );
         }
+
+
     }
 }
 
