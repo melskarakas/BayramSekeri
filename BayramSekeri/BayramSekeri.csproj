@@ -103,6 +103,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\CategoryController.cs" />
     <Compile Include="App_Start\WebApiConfig2.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\RegisterController.cs" />
@@ -128,7 +129,9 @@
   <ItemGroup>
     <Folder Include="AED_model\" />
     <Folder Include="App_Data\" />
+    <Folder Include="DenemeDosyasi\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Home\" />
     <Folder Include="Views\Account\" />
     <Folder Include="Views\Product\" />
     <Folder Include="Views\Register\" />
